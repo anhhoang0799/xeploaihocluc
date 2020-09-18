@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let x, y;
+        x = parseInt(prompt("nhap vao diem thi cuoi ki:"));
+        y = parseInt(prompt("nhap vao diem thi cuoi ki:"));
+        DTB = (x + y) / 2;
+        if (DTB >= 8.5 && DTB<=10) {
+            alert("Diem trung binh:" + DTB + "- xep loai:gioi");
+        }
+        if (DTB >= 6.5 && DTB<=7.5) {
+            alert("Diem trung binh:" + DTB + "- xep loai:kha");
+        }
+        if (DTB <= 5 && DTB>=3) {
+            alert("Diem trung binh:" + DTB + "- xep loai:trung binh");
+        }
+        if (DTB >= 2.5 && DTB<=0) {
+            alert("Diem trung binh:" + DTB + "- xep loai:kem");
+        }
+
+    </script>
+</body>
+
+</html>
